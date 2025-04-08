@@ -216,8 +216,8 @@ export default function MovieRender({ emotion, watchedMovie, genreIds }) {
               </CarouselItem>
             ))}
           </CarouselContent>
-          <CarouselPrevious className="text-white absolute left-2 top-1/2 -translate-y-1/2 z-10 bg-white/70 p-2 rounded-full shadow-md hover:bg-white transition md:left-4" />
-          <CarouselNext className="text-white absolute right-2 top-1/2 -translate-y-1/2 z-10 bg-white/70 p-2 rounded-full shadow-md hover:bg-white transition md:right-4" />
+          <CarouselPrevious className="text-black absolute left-2 top-1/2 -translate-y-1/2 z-10 bg-white/70 p-2 rounded-full shadow-md hover:bg-white transition md:left-4" />
+          <CarouselNext className="text-black absolute right-2 top-1/2 -translate-y-1/2 z-10 bg-white/70 p-2 rounded-full shadow-md hover:bg-white transition md:right-4" />
         </Carousel>
       </div>
       {watchedMovie?.length > 0 && (
@@ -258,8 +258,8 @@ export default function MovieRender({ emotion, watchedMovie, genreIds }) {
                   </CarouselItem>
                 ))}
               </CarouselContent>
-              <CarouselPrevious className="text-white absolute left-2 top-1/2 -translate-y-1/2 z-10 bg-white/70 p-2 rounded-full shadow-md hover:bg-white transition md:left-4" />
-              <CarouselNext className="text-white absolute right-2 top-1/2 -translate-y-1/2 z-10 bg-white/70 p-2 rounded-full shadow-md hover:bg-white transition md:right-4" />
+              <CarouselPrevious className="text-black absolute left-2 top-1/2 -translate-y-1/2 z-10 bg-white/70 p-2 rounded-full shadow-md hover:bg-white transition md:left-4" />
+              <CarouselNext className="text-black absolute right-2 top-1/2 -translate-y-1/2 z-10 bg-white/70 p-2 rounded-full shadow-md hover:bg-white transition md:right-4" />
             </Carousel>
           </div>
         </>
